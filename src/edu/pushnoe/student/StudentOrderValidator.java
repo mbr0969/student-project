@@ -1,11 +1,18 @@
 package edu.pushnoe.student;
 
 import edu.pushnoe.student.domain.*;
+import edu.pushnoe.student.domain.children.AnswerChildren;
+import edu.pushnoe.student.domain.register.AnswerCityRegister;
+import edu.pushnoe.student.domain.student.AnswerStudent;
+import edu.pushnoe.student.domain.wedding.AnswerWedding;
 import edu.pushnoe.student.mail.SenderMail;
 import edu.pushnoe.student.validator.ChildrenValidator;
 import edu.pushnoe.student.validator.CityRegisterValidator;
 import edu.pushnoe.student.validator.StudentValodator;
 import edu.pushnoe.student.validator.WeddingValidator;
+
+import java.util.LinkedList;
+import java.util.List;
 
 public class StudentOrderValidator {
 
@@ -39,15 +46,11 @@ public class StudentOrderValidator {
      */
     public void checkAll() {
 
-          StudentOrder[] soArray = readStudentOrders();
+          List<StudentOrder> soList = readStudentOrders();
 
-          for (int i=0; i<soArray.length; i++){
-              System.out.println();
-              checkOneOrder(soArray[i]);
-          }
 
-        for (StudentOrder so : soArray ) {
-            System.out.println();
+        for (StudentOrder so : soList ) {
+            //System.out.println();
             checkOneOrder(so);
         }
     }
@@ -55,35 +58,26 @@ public class StudentOrderValidator {
     /**
      * @return
      */
-    static StudentOrder[] readStudentOrders() {
+    static List<StudentOrder> readStudentOrders() {
 
-        StudentOrder[] soArray = new StudentOrder[3];
+        List<StudentOrder> soList = new LinkedList<StudentOrder>();
 
-        for (int i=0; i < soArray.length; i++ ){
-            soArray[i] =SaveStudentOrder.buildStudentOrder(i);
+        for (int i = 0; i < 5; i++){
+            StudentOrder so = SaveStudentOrder.buildStudentOrder(i);
+            soList.add(so);
         }
 
-        return soArray;
+        return soList;
     }
 
     public void checkOneOrder(StudentOrder so){
 
         AnswerCityRegister cityAnswer = checkCityRegister(so);
-        AnswerWedding weddingAnswer = checkWedding(so);
-        AnswerChildren childrenAnswer = checkChildren(so);
-        AnswerStudent studentAnser = checkStudent(so);
+     //   AnswerWedding weddingAnswer = checkWedding(so);
+     //   AnswerChildren childrenAnswer = checkChildren(so);
+     //   AnswerStudent studentAnser = checkStudent(so);
 
-        sendMail(so);
-    }
-
-
-
-    /**
-     * @param so
-     */
-    public void sendMail(StudentOrder so) {
-
-        senderMail.sendMail(so);
+     //   sendMail(so);
     }
 
 
@@ -120,6 +114,14 @@ public class StudentOrderValidator {
     public AnswerStudent checkStudent(StudentOrder so){
 
         return studentVal.checkStudent(so);
+    }
+
+    /**
+     * @param so
+     */
+    public void sendMail(StudentOrder so) {
+
+        senderMail.sendMail(so);
     }
 
 }

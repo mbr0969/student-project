@@ -1,6 +1,6 @@
 package edu.pushnoe.student.validator;
 
-import edu.pushnoe.student.domain.AnswerStudent;
+import edu.pushnoe.student.domain.student.AnswerStudent;
 import edu.pushnoe.student.domain.StudentOrder;
 
 public class StudentValodator {

@@ -15,8 +15,8 @@ public class Adult extends Person {
 
     }
 
-    public Adult(String surName, String givenName, String patronymic, LocalDate dateOfBirth, Address address) {
-        super(surName, givenName, patronymic, dateOfBirth, address);
+    public Adult(String surName, String givenName, String patronymic, LocalDate dateOfBirth) {
+        super(surName, givenName, patronymic, dateOfBirth);
     }
 
 

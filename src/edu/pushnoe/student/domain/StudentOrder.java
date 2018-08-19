@@ -1,12 +1,19 @@
 package edu.pushnoe.student.domain;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
 public class StudentOrder {
 
 
    private long studentOrderId;
    private Adult husbend;
-   private Adult whife;
-   private Child child;
+   private Adult wife;
+   private List<Child> children;
+   private String marriageCertificateId;
+   private String marriageOffice;
+   private LocalDate marriageDate;
 
 
    public long getStudentOrderId() {
@@ -25,19 +32,52 @@ public class StudentOrder {
       this.husbend = husbend;
    }
 
-   public Adult getWhife() {
-      return whife;
+   public Adult getWife() {
+      return wife;
    }
 
-   public void setWhife(Adult whife) {
-      this.whife = whife;
+   public void setWife(Adult whife) {
+      this.wife = whife;
    }
 
-   public Child getChild() {
-      return child;
+   public List<Child> getChildren() {
+      return children;
    }
 
-   public void setChild(Child child) {
-      this.child = child;
+
+   public void addChild(Child child){
+
+       if (children == null){
+
+           children = new ArrayList<>(5);
+       }
+
+       children.add(child);
+
    }
+
+   public String getMarriageCertificateId() {
+      return marriageCertificateId;
+   }
+
+   public void setMarriageCertificateId(String marriageCertificateId) {
+      this.marriageCertificateId = marriageCertificateId;
+   }
+
+   public String getMarriageOffice() {
+      return marriageOffice;
+   }
+
+   public void setMarriageOffice(String marriageOffice) {
+      this.marriageOffice = marriageOffice;
+   }
+
+   public LocalDate getMarriageDate() {
+      return marriageDate;
+   }
+
+   public void setMarriageDate(LocalDate marriageDate) {
+      this.marriageDate = marriageDate;
+   }
+
 }
