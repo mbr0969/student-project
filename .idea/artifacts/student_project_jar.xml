@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="student-project:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/student_project_jar</output-path>
-    <root id="archive" name="student-project.jar">
-      <element id="module-output" name="student-project" />
-      <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.5" />
-    </root>
-  </artifact>
-</component>
