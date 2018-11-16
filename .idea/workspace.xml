@@ -7,19 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c314df5-a31c-4556-a57b-aa0a5c3b8b45" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/nb-configuration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/dao/ConnectDb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/dao/DictionaryDoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/dao/DitionaryDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/dao/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/dao/UtilsDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/domain/Street.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/exception/CityRegisterException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/exception/DaoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/exception/TransportException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pushnoe/student/ui/StreetTableModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/postgresql-42.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,29 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentDaoIpml.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/pushnoe/student/dao/StudentDaoIpml.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentDaoIpmlTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/pushnoe/student/dao/StudentDaoIpmlTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="40">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -148,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/edu/pushnoe/student/domain/Address.java" />
         <option value="$PROJECT_DIR$/src/edu/pushnoe/student/domain/Street.java" />
         <option value="$PROJECT_DIR$/src/edu/pushnoe/student/SaveStudentOrder.java" />
         <option value="$PROJECT_DIR$/src/edu/pushnoe/student/dao/DirectoryDao.java" />
@@ -199,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/pushnoe/student/domain/StudentOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/pushnoe/student/domain/University.java" />
         <option value="$PROJECT_DIR$/target/logfile_test.log" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -264,17 +235,6 @@
             <path>
               <item name="student-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="student-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -536,7 +496,7 @@
       <workItem from="1541230499504" duration="751000" />
       <workItem from="1541780337648" duration="57513000" />
       <workItem from="1542312341631" duration="4109000" />
-      <workItem from="1542319487198" duration="5574000" />
+      <workItem from="1542319487198" duration="6398000" />
     </task>
     <task id="LOCAL-00001" summary="17.08.2018">
       <created>1534513130997</created>
@@ -559,7 +519,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542370269858</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="16.11.2018">
+      <created>1542371541386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542371541386</updated>
+    </task>
+    <task id="LOCAL-00005" summary="16.11.2018_">
+      <created>1542371565952</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542371565952</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -595,7 +569,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281829000" />
+    <option name="totallyTimeSpent" value="282653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,6 +582,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="28" width="1688" height="997" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="GfmBrowser" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -687,7 +662,8 @@
     <MESSAGE value="17.08.2018" />
     <MESSAGE value="19.08.2018" />
     <MESSAGE value="16.11.2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.11.2018" />
+    <MESSAGE value="16.11.2018_" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.11.2018_" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,16 +679,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pushnoe/student/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/student_data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1045,13 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pushnoe/student/dao/StudentDaoIpml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1070,6 +1029,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pushnoe/student/dao/StudentDaoIpml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
